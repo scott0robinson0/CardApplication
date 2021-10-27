@@ -4,7 +4,10 @@ using System.Text;
 
 namespace CardApplication
 {
-    class EventCard : Card
+    public class EventCard : Card
     {
+        public string Date { set; get; }
+
+        public EventCard() { }
     }
 }

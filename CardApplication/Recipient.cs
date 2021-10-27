@@ -4,7 +4,10 @@ using System.Text;
 
 namespace CardApplication
 {
-    class Recipient : Person
+    public class Recipient : Person
     {
+        public int Age { get; set; }
+
+        public Recipient() { }
     }
 }

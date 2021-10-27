@@ -4,7 +4,8 @@ using System.Text;
 
 namespace CardApplication
 {
-    class BirthdayCard : Card
+    public class BirthdayCard : Card
     {
+        public BirthdayCard() { }
     }
 }

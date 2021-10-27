@@ -4,7 +4,8 @@ using System.Text;
 
 namespace CardApplication
 {
-    class Sender : Person
+    public class Sender : Person
     {
+        public Sender() { }
     }
 }

@@ -4,12 +4,12 @@ using System.Text;
 
 namespace CardApplication
 {
-    class Address
+    public class Address
     {
         public string street { get; set; }
         public int HouseNo 
         { 
-            get { return HouseNo}
+            get { return HouseNo; }
             set 
             {
                 if (value > 0)
@@ -23,5 +23,7 @@ namespace CardApplication
             }
         }
         public string Postcode { get; set; }
+
+        public Address() { }
     }
 }

@@ -4,9 +4,12 @@ using System.Text;
 
 namespace CardApplication
 {
-    class Person
+    public class Person
     {
         public string Name { get; set; }
         public string Address { get; set; }
+        public string Phone { get; set; }
+
+        public Person() { }
     }
 }

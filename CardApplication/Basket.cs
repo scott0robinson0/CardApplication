@@ -4,8 +4,10 @@ using System.Text;
 
 namespace CardApplication
 {
-    class Basket
+    public class Basket
     {
         public int[] ArrayOfCards { get; set; } = new int[1];
+
+        public Basket() { }
     }
 }
