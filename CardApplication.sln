@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardApplication", "CardApplication\CardApplication.csproj", "{BAA077D7-23D8-4161-BE87-5E47AB7830E7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardApplicationForm", "frmCardApplication\CardApplicationForm.csproj", "{C0BAF9AE-732E-4D5F-A10E-DDDAE37F85CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardApplication", "Test\CardApplication.csproj", "{C047668E-7494-4910-BA2B-9C95789A94CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BAA077D7-23D8-4161-BE87-5E47AB7830E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BAA077D7-23D8-4161-BE87-5E47AB7830E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BAA077D7-23D8-4161-BE87-5E47AB7830E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BAA077D7-23D8-4161-BE87-5E47AB7830E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0BAF9AE-732E-4D5F-A10E-DDDAE37F85CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0BAF9AE-732E-4D5F-A10E-DDDAE37F85CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0BAF9AE-732E-4D5F-A10E-DDDAE37F85CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0BAF9AE-732E-4D5F-A10E-DDDAE37F85CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C047668E-7494-4910-BA2B-9C95789A94CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C047668E-7494-4910-BA2B-9C95789A94CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C047668E-7494-4910-BA2B-9C95789A94CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C047668E-7494-4910-BA2B-9C95789A94CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,9 +4,10 @@ using System.Text;
 
 namespace CardApplication
 {
-    public class Sender : Person
+    public class EventCard : Card
     {
-        public string PaymentInfo { get; set; }
-        public Sender() { }
+        public string Date { set; get; }
+
+        public EventCard() { }
     }
 }

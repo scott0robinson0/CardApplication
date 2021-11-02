@@ -7,14 +7,15 @@ namespace CardApplication
     public class Address
     {
         public string Street { get; set; }
+        private int _houseno;
         public int HouseNo 
         { 
-            get { return HouseNo; }
+            get { return this._houseno; }
             set 
             {
                 if (value > 0)
                 {
-                    HouseNo = value;
+                    this._houseno = value;
                 }
                 else
                 {
