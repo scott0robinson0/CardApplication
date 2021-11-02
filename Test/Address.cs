@@ -15,7 +15,7 @@ namespace CardApplication
             {
                 if (value > 0)
                 {
-                    this._houseno = value;
+                    this._house = value;
                 }
                 else
                 {

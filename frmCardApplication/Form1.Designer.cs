@@ -61,6 +61,15 @@ namespace frmCardApplication
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textBox14 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -73,7 +82,6 @@ namespace frmCardApplication
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(132, 22);
             this.textBox1.TabIndex = 0;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -188,7 +196,6 @@ namespace frmCardApplication
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(160, 24);
             this.comboBox1.TabIndex = 12;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label8
             // 
@@ -219,7 +226,7 @@ namespace frmCardApplication
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(85, 11);
+            this.label10.Location = new System.Drawing.Point(111, 11);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(89, 16);
             this.label10.TabIndex = 16;
@@ -273,15 +280,15 @@ namespace frmCardApplication
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(88, 39);
+            this.textBox9.Location = new System.Drawing.Point(114, 39);
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(132, 22);
+            this.textBox9.Size = new System.Drawing.Size(148, 22);
             this.textBox9.TabIndex = 22;
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(9, 42);
+            this.label13.Location = new System.Drawing.Point(35, 42);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(73, 16);
             this.label13.TabIndex = 23;
@@ -290,7 +297,7 @@ namespace frmCardApplication
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(9, 70);
+            this.label14.Location = new System.Drawing.Point(35, 70);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(73, 16);
             this.label14.TabIndex = 25;
@@ -298,15 +305,15 @@ namespace frmCardApplication
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(88, 67);
+            this.textBox10.Location = new System.Drawing.Point(114, 67);
             this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(132, 22);
+            this.textBox10.Size = new System.Drawing.Size(148, 22);
             this.textBox10.TabIndex = 24;
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(49, 98);
+            this.label15.Location = new System.Drawing.Point(75, 98);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(33, 16);
             this.label15.TabIndex = 27;
@@ -314,9 +321,9 @@ namespace frmCardApplication
             // 
             // textBox11
             // 
-            this.textBox11.Location = new System.Drawing.Point(88, 95);
+            this.textBox11.Location = new System.Drawing.Point(114, 95);
             this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(132, 22);
+            this.textBox11.Size = new System.Drawing.Size(148, 22);
             this.textBox11.TabIndex = 26;
             // 
             // checkBox1
@@ -332,6 +339,13 @@ namespace frmCardApplication
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.label16);
+            this.panel1.Controls.Add(this.label17);
+            this.panel1.Controls.Add(this.label18);
+            this.panel1.Controls.Add(this.textBox12);
+            this.panel1.Controls.Add(this.button3);
+            this.panel1.Controls.Add(this.textBox13);
+            this.panel1.Controls.Add(this.textBox14);
             this.panel1.Controls.Add(this.label10);
             this.panel1.Controls.Add(this.textBox9);
             this.panel1.Controls.Add(this.label15);
@@ -340,9 +354,9 @@ namespace frmCardApplication
             this.panel1.Controls.Add(this.textBox10);
             this.panel1.Controls.Add(this.label14);
             this.panel1.Enabled = false;
-            this.panel1.Location = new System.Drawing.Point(598, 38);
+            this.panel1.Location = new System.Drawing.Point(586, 38);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(233, 136);
+            this.panel1.Size = new System.Drawing.Size(293, 274);
             this.panel1.TabIndex = 29;
             // 
             // panel2
@@ -366,11 +380,12 @@ namespace frmCardApplication
             this.panel2.Controls.Add(this.textBox5);
             this.panel2.Location = new System.Drawing.Point(25, 20);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(271, 353);
+            this.panel2.Size = new System.Drawing.Size(271, 326);
             this.panel2.TabIndex = 30;
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.button2);
             this.panel3.Controls.Add(this.label8);
             this.panel3.Controls.Add(this.label7);
             this.panel3.Controls.Add(this.comboBox1);
@@ -379,14 +394,96 @@ namespace frmCardApplication
             this.panel3.Enabled = false;
             this.panel3.Location = new System.Drawing.Point(314, 38);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(266, 233);
+            this.panel3.Size = new System.Drawing.Size(266, 203);
             this.panel3.TabIndex = 31;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(81, 156);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(160, 23);
+            this.button2.TabIndex = 16;
+            this.button2.Text = "Confirm Card Info";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // panel4
+            // 
+            this.panel4.Location = new System.Drawing.Point(531, 365);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(113, 129);
+            this.panel4.TabIndex = 32;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(114, 213);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(148, 23);
+            this.button3.TabIndex = 33;
+            this.button3.Text = "Confirm Recipient Info";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(40, 187);
+            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(66, 16);
+            this.label16.TabIndex = 39;
+            this.label16.Text = "Postcode";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(8, 157);
+            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(99, 16);
+            this.label17.TabIndex = 38;
+            this.label17.Text = "House Number";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(23, 127);
+            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(83, 16);
+            this.label18.TabIndex = 34;
+            this.label18.Text = "Street Name";
+            // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(114, 184);
+            this.textBox12.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(148, 22);
+            this.textBox12.TabIndex = 37;
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(114, 124);
+            this.textBox13.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(148, 22);
+            this.textBox13.TabIndex = 35;
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(114, 154);
+            this.textBox14.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(148, 22);
+            this.textBox14.TabIndex = 36;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -437,6 +534,15 @@ namespace frmCardApplication
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Panel panel4;
     }
 }
 

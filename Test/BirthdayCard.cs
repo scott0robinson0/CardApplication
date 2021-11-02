@@ -6,6 +6,11 @@ namespace CardApplication
 {
     public class BirthdayCard : Card
     {
-        public BirthdayCard() { }
+        public BirthdayCard() {
+            Message = "Happy Birthday!";
+        }
+        public BirthdayCard(string message) {
+             Message = message;
+        }
     }
 }
