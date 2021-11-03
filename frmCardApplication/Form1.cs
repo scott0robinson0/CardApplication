@@ -52,10 +52,12 @@ namespace frmCardApplication
                 if (textBox8.TextLength == 0)
                 {
                     BirthdayCard bCard = new BirthdayCard();
+                    label19.Text = bCard.Message;
                 }
                 else 
                 {
                     BirthdayCard bCard = new BirthdayCard(textBox8.Text);
+                    label19.Text = bCard.Message;
                 }
 
             }
@@ -71,7 +73,7 @@ namespace frmCardApplication
                 }
             }
             panel1.Enabled = true;
-            panel3.Enabled = false;
+            //panel3.Enabled = false;
         }
 
         private void button3_Click(object sender, EventArgs e)

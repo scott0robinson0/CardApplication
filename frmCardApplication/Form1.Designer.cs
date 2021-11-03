@@ -69,6 +69,7 @@ namespace frmCardApplication
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
+            this.label19 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -355,7 +356,7 @@ namespace frmCardApplication
             this.panel1.Enabled = false;
             this.panel1.Location = new System.Drawing.Point(586, 38);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(293, 274);
+            this.panel1.Size = new System.Drawing.Size(293, 263);
             this.panel1.TabIndex = 29;
             // 
             // label16
@@ -470,11 +471,21 @@ namespace frmCardApplication
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(417, 366);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(52, 16);
+            this.label19.TabIndex = 32;
+            this.label19.Text = "label19";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.label19);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -488,6 +499,7 @@ namespace frmCardApplication
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -533,6 +545,7 @@ namespace frmCardApplication
         private System.Windows.Forms.TextBox textBox13;
         private System.Windows.Forms.TextBox textBox14;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label19;
     }
 }
 

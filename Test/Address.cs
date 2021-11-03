@@ -10,12 +10,12 @@ namespace CardApplication
         private int _houseno;
         public int HouseNo 
         { 
-            get { return this._houseno; }
+            get { return _houseno; }
             set 
             {
                 if (value > 0)
                 {
-                    this._house = value;
+                    _houseno = value;
                 }
                 else
                 {
