@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardApplicationForm", "frmC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardApplication", "Test\CardApplication.csproj", "{C047668E-7494-4910-BA2B-9C95789A94CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardApplicationTests", "CardApplicationTests\CardApplicationTests.csproj", "{43B4BCFA-2298-458B-AB1E-0BCF16966F48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C047668E-7494-4910-BA2B-9C95789A94CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C047668E-7494-4910-BA2B-9C95789A94CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C047668E-7494-4910-BA2B-9C95789A94CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43B4BCFA-2298-458B-AB1E-0BCF16966F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43B4BCFA-2298-458B-AB1E-0BCF16966F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43B4BCFA-2298-458B-AB1E-0BCF16966F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43B4BCFA-2298-458B-AB1E-0BCF16966F48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

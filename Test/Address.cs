@@ -25,6 +25,8 @@ namespace CardApplication
         }
         public string Postcode { get; set; }
 
-        public Address() { }
+        public Address() {
+        
+        }
     }
 }

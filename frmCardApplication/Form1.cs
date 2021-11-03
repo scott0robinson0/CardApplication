@@ -66,14 +66,16 @@ namespace frmCardApplication
                 if(textBox8.TextLength == 0)
                 {
                     EventCard eCard = new EventCard();
+                    label19.Text = eCard.Message;
                 }
                 else
                 {
                     EventCard eCard = new EventCard(textBox8.Text);
+                    label19.Text = eCard.Message;
                 }
             }
             panel1.Enabled = true;
-            //panel3.Enabled = false;
+            panel3.Enabled = false;
         }
 
         private void button3_Click(object sender, EventArgs e)

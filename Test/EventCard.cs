@@ -9,7 +9,7 @@ namespace CardApplication
         public string Date { set; get; }
 
         public EventCard() {
-            Message = "Happy Birthday!";
+            Message = "Come to the event!";
         }
         public EventCard(string message)
         {
