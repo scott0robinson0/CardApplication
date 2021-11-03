@@ -59,17 +59,16 @@ namespace frmCardApplication
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.textBox12 = new System.Windows.Forms.TextBox();
+            this.button3 = new System.Windows.Forms.Button();
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.textBox14 = new System.Windows.Forms.TextBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -359,6 +358,70 @@ namespace frmCardApplication
             this.panel1.Size = new System.Drawing.Size(293, 274);
             this.panel1.TabIndex = 29;
             // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(40, 187);
+            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(66, 16);
+            this.label16.TabIndex = 39;
+            this.label16.Text = "Postcode";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(8, 157);
+            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(99, 16);
+            this.label17.TabIndex = 38;
+            this.label17.Text = "House Number";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(23, 127);
+            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(83, 16);
+            this.label18.TabIndex = 34;
+            this.label18.Text = "Street Name";
+            // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(114, 184);
+            this.textBox12.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(148, 22);
+            this.textBox12.TabIndex = 37;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(114, 213);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(148, 23);
+            this.button3.TabIndex = 33;
+            this.button3.Text = "Confirm Recipient Info";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(114, 124);
+            this.textBox13.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(148, 22);
+            this.textBox13.TabIndex = 35;
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(114, 154);
+            this.textBox14.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(148, 22);
+            this.textBox14.TabIndex = 36;
+            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.label4);
@@ -407,83 +470,11 @@ namespace frmCardApplication
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // panel4
-            // 
-            this.panel4.Location = new System.Drawing.Point(531, 365);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(113, 129);
-            this.panel4.TabIndex = 32;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(114, 213);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(148, 23);
-            this.button3.TabIndex = 33;
-            this.button3.Text = "Confirm Recipient Info";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(40, 187);
-            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(66, 16);
-            this.label16.TabIndex = 39;
-            this.label16.Text = "Postcode";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(8, 157);
-            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(99, 16);
-            this.label17.TabIndex = 38;
-            this.label17.Text = "House Number";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(23, 127);
-            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(83, 16);
-            this.label18.TabIndex = 34;
-            this.label18.Text = "Street Name";
-            // 
-            // textBox12
-            // 
-            this.textBox12.Location = new System.Drawing.Point(114, 184);
-            this.textBox12.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(148, 22);
-            this.textBox12.TabIndex = 37;
-            // 
-            // textBox13
-            // 
-            this.textBox13.Location = new System.Drawing.Point(114, 124);
-            this.textBox13.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(148, 22);
-            this.textBox13.TabIndex = 35;
-            // 
-            // textBox14
-            // 
-            this.textBox14.Location = new System.Drawing.Point(114, 154);
-            this.textBox14.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(148, 22);
-            this.textBox14.TabIndex = 36;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -542,7 +533,6 @@ namespace frmCardApplication
         private System.Windows.Forms.TextBox textBox13;
         private System.Windows.Forms.TextBox textBox14;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Panel panel4;
     }
 }
 
